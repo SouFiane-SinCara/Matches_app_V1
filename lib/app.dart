@@ -176,7 +176,7 @@ class _AppState extends State<App> {
                       child: GestureDetector(
                         onTap: () {
                           setState(() {
-                            chosedate = 1;
+                            chosedate = 0;
                           });
                         },
                         child: Container(
